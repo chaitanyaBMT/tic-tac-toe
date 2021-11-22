@@ -128,7 +128,7 @@ function winnerpleyr(p){
   modal.classList.add("winner");
   modal.appendChild(player);
   replay.appendChild(document.createTextNode("Replay"));
-  // replay.setAttribute("onclick","rep();");
+  
   replay.onclick = function() { rep() };
   modal.appendChild(replay);
   document.body.appendChild(modal);
